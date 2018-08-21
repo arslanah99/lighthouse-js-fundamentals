@@ -1,5 +1,7 @@
 function isEven(num) {
-  return num % 2 === 0;
+  var remainder = num % 2; // 0
+  var trueOrFalse = remainder === 0 // 0 is 0 therefore 'trueOrFalse' = true
+  return trueOrFalse;
 }
 
 
